@@ -193,7 +193,7 @@ header {
     text-align: center;
     padding-bottom: 10px;
     border-bottom: 2px solid #1f5c84;
-    margin-bottom: 40px;;
+    margin-bottom: 40px;
 }
 
 .photos-showcase {
@@ -245,84 +245,78 @@ header {
 /*---------------------MORE---------------------*/
 /*------------------------------------------------------------*/
 
-.section-pack {
-    background-color: #fff;
+.opinions {
+    margin: 4em 0;
+    position: relative;  
 }
-.info-text h2 {
+.opinions .text-center {
+    font-weight: 500;
     text-align: center;
+    margin: 2em; 
+    color: #383838;
     padding-bottom: 10px;
     border-bottom: 2px solid #1f5c84;
     margin-bottom: 40px;
-    font-weight: 500;
-}
-.section-pack .square {
-    margin: 0;
-    padding: 8px;
-    position: relative;
-    border: 5px solid #000;
-    margin: 20px;
-    
-    position: relative;
-    float: left;
-    width: 30%;
-    
-    transition: background-color 0.25s;
 }
 
-.section-pack .square:hover {
-    background-color: #000;
+.opinions .item{
+ position: relative;
 }
 
-.section-pack .square:hover .name {
+.item img {
+    width: 100%;
+}
+.opinions .des{
+ font-family: Julius Sans One;
+ font-weight: 600;
+ color: #000; 
+ text-align: center;
+ padding: 8px;
+ border: 3px solid black;
+ transition:.3s ease-in-out; 
+}
+
+.opinions .item:hover .des{
+ color: white;
+ height: 99%;
+ background:#1f5c847d;
+ position: absolute;
+ width: 100%;
+ padding: 5em;
+ top: 0; 
+ border: 0px solid #1f5c84;
+}
+
+
+.text-muted {
     display: none;
-}    
-
-.section-pack .square:hover .about {
     color: white;
-    display: block;
-} 
-
-.section-pack .square:before {
-    content: "";
-    display: block;
-    padding-top: 50%;
-}
-
-.pack {
-    text-align: center;
-}
-
-.pack .name {
-    color: black;
-    font-weight: 400;
-    font-size: 170%;
-    text-align: left;
-    position: absolute;
-    float: left;
-    top:1%;
-    margin: 10px;
-    text-transform: uppercase;
-}
-
-.pack .about {
-    color: black;
-    font-weight: 300;
     font-size: 90%;
-    text-align: left;
-    position: absolute;
-    float: left;
-    top:1%;
-    margin: 10px;
-    text-transform: uppercase;
-    
-    display: none;
-    transition: color 0.25s;
+    border: 3px solid white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 500;
+    transition: .3s ease-in-out;
 }
+
+.opinions .item:hover .text-muted{
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 90%;
+    
+}
+
 /*------------------------------------------------------------*/
 /*---------------------CONTACT---------------------*/
 /*------------------------------------------------------------*/
 .section-form h2 {
+    font-weight: 500;
+    padding-bottom: 10px;
     border-bottom: 2px solid #1f5c84;
+    margin-bottom: 40px;
 }
 
 .contact-form {
