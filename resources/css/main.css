@@ -246,7 +246,6 @@ header {
 /*------------------------------------------------------------*/
 
 .opinions {
-    margin: 4em 0;
     position: relative;  
 }
 .opinions .text-center {
@@ -266,11 +265,13 @@ header {
 .item img {
     width: 100%;
 }
+
 .opinions .des{
  font-family: Julius Sans One;
  font-weight: 600;
  color: #000; 
  text-align: center;
+ margin-top: 12px;
  padding: 8px;
  border: 3px solid black;
  transition:.3s ease-in-out; 
@@ -283,7 +284,7 @@ header {
  position: absolute;
  width: 100%;
  padding: 5em;
- top: 0; 
+ top: -12px; 
  border: 0px solid #1f5c84;
 }
 
