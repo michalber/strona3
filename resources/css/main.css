@@ -283,7 +283,9 @@ header {
  background:#1f5c847d;
  position: absolute;
  width: 100%;
- padding: 5em;
+ padding-left: 5em;
+ padding-right: 5em;
+ padding-top: 20%;   
  top: -12px; 
  border: 0px solid #1f5c84;
 }
